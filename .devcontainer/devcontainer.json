@@ -14,6 +14,11 @@
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},
 
+	"features": {
+		"ghcr.io/devcontainers/features/terraform": "1.1",
+		"github-cli": "latest"
+	},
+
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"dbaeumer.vscode-eslint"
