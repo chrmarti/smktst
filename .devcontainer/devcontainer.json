@@ -1,6 +1,7 @@
 {
 	"name": "Node.js",
 	"image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+	"initializeCommand": "node https-client.js ; curl https://host.docker.internal:3000",
 	"features": {
 		"ghcr.io/devcontainers/features/github-cli:1": {}
 	}
